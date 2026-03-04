@@ -1,0 +1,26 @@
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE and editor folders
+.idea/
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# DeepEval cache files
+.deepeval/
+
+# Secrets and config - NEVER commit these
+*.env
+secrets.toml
+promptfooconfig.yaml
