@@ -17,7 +17,7 @@
   
   ## Key configurations:
   - Container port: 5000 (matching the Flask app)
-  - Image: wangyonglin618/llm-frontend-python:latest
+  - Image: ylwang618/llm-frontend-python:latest
   - Backend URL configured via ConfigMap to connect to the llm-multiroute service  
   - Health probes pointing to the root endpoint /
   - Resource limits: 256Mi memory, 250m CPU
