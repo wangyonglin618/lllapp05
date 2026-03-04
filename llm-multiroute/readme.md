@@ -104,7 +104,7 @@
 │ cd llm-multiroute                                                        │
 │ pip install -r requirements.txt                                          │
 │ # Set env vars or create .env                                            │
-│ export OLLAMA_API_KEY=your_key                                           │
+│ export OLLAMA_API_KEY=c2f916de66c04c729cf98a25c93abe56._U5Dy3DoDf1RQ9BG936-yC4R                                         │
 │ python -m uvicorn app.main:app --port 8080 --reload                      │
 │ # Open http://localhost:8082/swagger-ui.html                             │
 │ # Test: GET /api/ai/routes — should show 4 model assignments             │
